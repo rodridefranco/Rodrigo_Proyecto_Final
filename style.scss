@@ -1,0 +1,36 @@
+
+/*  SASS nos permite, además, que el CSS que se genera sea más fácil de mantener y más reutilizable. */
+
+$primary-color: #f4f4f4
+
+body{
+    background-color: $primary-color;
+
+}
+
+/* podemos realizarlo en anidamiento para que se aplique al css de manera ordenada y especifica */
+/* para sincronizarlo con "css" hay que ejecutar en la terminal el comando "sass --watch style.scss(origen) style.css(destino)" este comando hay que ejecutarlo cada vez que abrimos el proyecto para que se sincronicen */
+
+/* La diferencia que hay entre SASS y SCSS es que en SASS no se usan los caracteres especiales, osea sin corchete ni nada */
+
+
+/* $primary-color: #f4f4f4
+
+body
+    background-color: $primary-color;
+ */
+
+/* CONTINUANDO: tambien con estos formatos podemos realizar "mixing", es decir agregar entre parentesis un parametro o variable vacio */
+/* en esta se decide que valor va a tener en un futuro, es deciir, cuando usemos el mixing UN EJEMPLO:  */
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+.box {
+    @include border-radius(10px)
+}
+
+.mapa {
+    @include border-radius(20px)
+}
