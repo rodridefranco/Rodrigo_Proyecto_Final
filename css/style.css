@@ -1,7 +1,10 @@
-/* En global los estilos que son comunes a todas las paginas */
-/* en "pages" archivos que hagan referencia a las secciones de las paginas */
-/* "utilities" mediaquerys, lo propio de sass, variables */
-/* "components" todo lo que relacionamos con el header y el foot */
-/* estas son sugerencias */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
 
 /*# sourceMappingURL=style.css.map */
