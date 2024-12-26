@@ -1,8 +1,9 @@
-$color-principal:#f4f4f4;
-$color-components: rgb(18, 18, 24);
-$color-hover:rgb(61, 68, 126);
+
 
 @use "./global/reset";
 @use "./components/header";
-@use "./components/footer"
-
+@use "./components/footer";
+@use "./pages/main-index";
+@use "./utilities/variable";
+@use "./utilities/mixin";
+@use "./utilities/extend";
