@@ -1,0 +1,48 @@
+$color-principal:#f4f4f4;
+$color-components: rgb(18, 18, 24);
+$color-hover:rgb(61, 68, 126);
+$fontsize-main: 16px;
+
+.grid_inicio {
+    display: grid;
+    align-content: space-around;
+    grid-template-columns: 2fr 1fr;
+    /* Filas */
+    grid-template-rows: 2fr 1fr;
+    
+}
+
+.contenedor_flex {
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: flex-start;
+    justify-content: center; 
+    gap: 20px; /* Espacio entre las cajas */
+    padding: 20px;     
+    }
+
+.img_flex {
+    max-width: 20%;
+    height: auto; /* Mantiene proporción */
+    border-radius: 8px;
+    }
+
+.texto_flex {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.enlaces_flex {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: $color-components;
+
+}
+
+.hover_flex {
+    background-color: $color-hover;
+    transition: 0.5s ease;
+
+}
+
+

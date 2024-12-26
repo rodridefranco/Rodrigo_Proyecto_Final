@@ -1,0 +1,14 @@
+$color-principal:#f4f4f4;
+$color-components: rgb(18, 18, 24);
+$color-hover:rgb(61, 68, 126);
+$fontsize-main: 16px;
+
+.parrafo_inicio {
+
+    text-align: center
+
+}
+
+main .grid_inicio {
+    @extend .grid_inicio
+}

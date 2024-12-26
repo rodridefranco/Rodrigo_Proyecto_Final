@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
@@ -38,6 +39,10 @@ main img {
   height: auto;
   border-radius: 8px;
 }
+main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 main p {
   font-family: "Roboto", serif;
   font-size: 16px;
@@ -54,7 +59,7 @@ main a {
   font-size: 16px;
 }
 main a:hover {
-  transition: background-color 0.5s ease;
+  transition: 0.5s ease;
   background-color: rgb(61, 68, 126);
 }
 
@@ -114,6 +119,49 @@ footer a {
 footer a:hover {
   transition: color 0.3s ease-in;
   color: white;
+}
+
+.parrafo_inicio {
+  text-align: center;
+}
+
+.grid_inicio {
+  display: grid;
+  align-content: space-around;
+  grid-template-columns: 2fr 1fr;
+  /* Filas */
+  grid-template-rows: 2fr 1fr;
+}
+
+.contenedor_flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las cajas */
+  padding: 20px;
+}
+
+.img_flex {
+  max-width: 20%;
+  height: auto; /* Mantiene proporción */
+  border-radius: 8px;
+}
+
+.texto_flex {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.enlaces_flex {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(18, 18, 24);
+}
+
+.hover_flex {
+  background-color: rgb(61, 68, 126);
+  transition: 0.5s ease;
 }
 
 /*# sourceMappingURL=style.css.map */

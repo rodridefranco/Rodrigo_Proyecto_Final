@@ -1,0 +1,20 @@
+$color-principal:#f4f4f4;
+$color-components: rgb(18, 18, 24);
+$color-hover:rgb(61, 68, 126);
+$fontsize-main: 16px;
+
+.contenedor_flex {
+    @extend .contenedor_flex;
+}
+
+.caja_flex {
+    @extend .texto_flex;
+    @extend .enlaces_flex;
+    @extend .img_flex;
+    @extend .hover_flex;
+}
+
+.img_musica {
+    @extend .imagenes;
+
+}
