@@ -1,0 +1,27 @@
+$color-components: rgb(18, 18, 24);
+$color-hover:rgb(61, 68, 126);
+
+footer {
+    font-family: "Montserrat", "italic";
+    background-color: #111;
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+        footer .redes_sociales {
+            margin: 1em;   
+        }
+
+            a {
+                color: $color-hover;
+                font-size: 24px;
+                margin: 0 10px;
+                text-decoration: none;
+                padding: 7px;
+            }
+
+                a:hover {
+                    transition: color 0.3s ease-in;
+                    color: white;
+            }
+}

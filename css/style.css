@@ -7,4 +7,68 @@ body {
   line-height: 1.6;
 }
 
+a {
+  text-decoration: none;
+  color: #ff5a5f;
+  transition: color 0.3s ease;
+}
+
+header {
+  background-color: rgb(18, 18, 24);
+  padding: 60px;
+  text-align: center;
+  background-attachment: fixed;
+}
+header img {
+  width: 20em;
+  height: auto;
+  display: inline-flex;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+header nav li {
+  display: inline;
+}
+header nav li a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+header nav li a:hover {
+  transition: 0.5s ease-in-out;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(61, 68, 126);
+}
+
+footer {
+  font-family: "Montserrat", "italic";
+  background-color: #111;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+footer footer .redes_sociales {
+  margin: 1em;
+}
+footer a {
+  color: rgb(61, 68, 126);
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 7px;
+}
+footer a:hover {
+  transition: color 0.3s ease-in;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
