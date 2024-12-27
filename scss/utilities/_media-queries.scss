@@ -1,0 +1,17 @@
+/* Responsividad */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    main section {
+        margin-bottom: 20px;
+    }
+}

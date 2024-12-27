@@ -64,7 +64,12 @@ main a:hover {
 }
 
 header {
-  background-color: rgb(18, 18, 24);
+  background: rgba(18, 18, 24, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 60px;
   text-align: center;
   background-attachment: fixed;
@@ -162,6 +167,22 @@ footer a:hover {
 .hover_flex {
   background-color: rgb(61, 68, 126);
   transition: 0.5s ease;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    padding: 20px;
+  }
+  main section {
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

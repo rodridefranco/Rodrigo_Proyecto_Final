@@ -1,8 +1,13 @@
-$color-components: rgb(18, 18, 24);
+$color-components: #121218;
 $color-hover:rgb(61, 68, 126);
 
 header {
-    background-color: $color-components;
+    background: rgba( 18, 18, 24, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 60px;
     text-align: center;
     background-attachment: fixed;
@@ -11,6 +16,7 @@ header {
         width: 20em;
         height: auto;
         display: inline-flex
+    
     }
 
         nav {
@@ -42,3 +48,4 @@ header {
         }
          }
 }
+
